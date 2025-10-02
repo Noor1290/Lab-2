@@ -1,0 +1,171 @@
+ body {
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 40px;
+      background: #1f7ae0;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    header button {
+      background: #fff;
+      color: #1f7ae0;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    header button:hover {
+      background: #f2f2f2;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    figure {
+      display: flex;
+      gap: 24px;
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      align-items: flex-start;
+    }
+
+    figure img {
+      width: 220px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      margin: 0 0 8px;
+    }
+
+    .muted {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .price {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #1f7ae0;
+      margin: 10px 0;
+    }
+
+    .pill {
+      display: inline-block;
+      background: #eef3ff;
+      color: #1f7ae0;
+      padding: 6px 12px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #1f7ae0;
+      color: #fff;
+    }
+    .btn-primary:hover:enabled {
+      background: #145cb8;
+    }
+    .btn-primary:disabled {
+      background: #a3c6f5;
+      cursor: not-allowed;
+    }
+
+    .btn-outline {
+      background: #fff;
+      border: 1px solid #ddd;
+      color: #333;
+    }
+    .btn-outline:hover {
+      background: #f5f5f5;
+    }
+
+    .row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    /* Checkout Page */
+    form {
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+      max-width: 500px;
+    }
+
+    label {
+      font-weight: 600;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      transition: border 0.3s ease;
+    }
+    input:focus {
+      border-color: #1f7ae0;
+      outline: none;
+    }
+
+    ul {
+      background: #fff;
+      padding: 16px 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+
+    li {
+      padding: 6px 0;
+      font-size: 1rem;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #eee;
+      margin: 20px 0;
+    }
